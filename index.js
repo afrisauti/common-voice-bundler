@@ -38,7 +38,7 @@ const outBucket = new S3({
         }
       }
     : {}),
-  region: 'us-west-2'
+  region: 'us-east-2'
 });
 const releaseDir = config.get('releaseName');
 
